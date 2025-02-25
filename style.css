@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin: 0 10rem;
+}
+
+.container {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 1320px;
+    background-color: white;
+}
+
+.top-text {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    margin: 0 1rem;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h1 {
+    margin: 1rem 1rem 2.5rem 1rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    text-wrap: pretty;
+}
+
+.highlight-num {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.highlight-num2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+.highlight-num {
+    color: #FFF;
+    background-color: rgb(30, 142, 207);
+}
+
+.highlight-num2 {
+    background-color: rgb(49, 165, 74);
+}
+
+.highlight-num3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.highlight-num3 {
+    background-color: rgb(250, 198, 26);
+}
+
+.highlight-text {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.highlight-text-s {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.button {
+    font-weight: 700;
+    padding: 0.8rem 1.5rem;
+    margin: 2rem 0;
+    background-color: #FFF;
+    border: solid 2px #111;
+    box-shadow: 4px 4px #111;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.button1 , .arrow {
+    font-size: 16px;
+    transition: transform 0.1s ease-in-out;
+    -webkit-transition: transform 0.1s ease-in-out;
+    -moz-transition: transform 0.1s ease-in-out;
+    -ms-transition: transform 0.1s ease-in-out;
+    -o-transition: transform 0.1s ease-in-out;
+}
+
+.button1:hover ,.arrow {
+    transform: translateX(555px);
+    -webkit-transform: translateX(555px);
+    -moz-transform: translateX(555px);
+    -ms-transform: translateX(555px);
+    -o-transform: translateX(555px);
+}
+
+.flex-box {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 1rem 1rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.flex-box1, .flex-box2, .flex-box3 {
+    width: 33%;
+}
+
+
+.flex-in-box {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-in-box1, .flex-in-box2, .flex-in-box3 {
+    width: 33%;
+}
