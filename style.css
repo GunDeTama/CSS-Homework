@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -83,60 +83,8 @@ p {
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-}
-
-.highlight-num2 {
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3.5rem;
-    padding: 0.5rem 0.5rem;
-    border: none;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-
-.highlight-num {
     color: #FFF;
     background-color: rgb(30, 142, 207);
-}
-
-.highlight-num2 {
-    background-color: rgb(49, 165, 74);
-}
-
-.highlight-num3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 2.5rem;
-    padding: 0.5rem 0.5rem;
-    border: none;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-}
-
-.highlight-num3 {
-    background-color: rgb(250, 198, 26);
-}
-
-.highlight-text {
-    font-weight: 600;
-    margin-bottom: 1rem;
-}
-
-.highlight-text-s {
-    font-size: 0.8rem;
-    font-weight: 600;
 }
 
 .button {
@@ -153,7 +101,7 @@ p {
     -o-border-radius: 0.5rem;
 }
 
-.button1 , .arrow {
+.button,.arrow {
     font-size: 16px;
     transition: transform 0.1s ease-in-out;
     -webkit-transition: transform 0.1s ease-in-out;
@@ -162,12 +110,54 @@ p {
     -o-transition: transform 0.1s ease-in-out;
 }
 
-.button1:hover ,.arrow {
+.button:hover,.arrow {
     transform: translateX(555px);
     -webkit-transform: translateX(555px);
     -moz-transform: translateX(555px);
     -ms-transform: translateX(555px);
     -o-transform: translateX(555px);
+}
+
+.highlight-num2 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3.5rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: rgb(49, 165, 74);
+}
+
+.highlight-num3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: rgb(250, 198, 26);
+}
+
+.highlight-text {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.highlight-text-s {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 
 .flex-box {
